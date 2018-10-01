@@ -3,4 +3,4 @@
 
 A project to learn html and css.
 
-[View the webpage here!](www.ian-antking.gihub.io/manchester_morning_news)
+[View the webpage here!](https://ian-antking.github.io/manchester_morning_news/)

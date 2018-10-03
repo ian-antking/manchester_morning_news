@@ -7,16 +7,19 @@
 
 body{
     background-color: var(--main-bg-color);
-    margin: 0;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
 }
 header{
     background-color: var(--main-header-color);
     color: var(--main-header-text-color);
     font-family: 'Graduate', cursive;
+    margin: 0;
+    position: top;
     
 }
 
-h1, h2{
+h1, h2, h3, h4{
     padding: 8px;
     margin: 8px;
     font-family: 'Graduate', cursive;
@@ -24,14 +27,12 @@ h1, h2{
 
 header ul{
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin-bottom: 10ox;
 }
 
 header li{
     display: inline;
-    padding: 8px;
-    margin: 8px;
+    margin-right: 10px;
 }
 
 header a{
@@ -50,8 +51,7 @@ main{
 
 p{
     width: 90%;
-    padding: 20px;
-    margin 10px;
+    margin: 20px;
 }
 
 article{

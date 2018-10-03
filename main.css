@@ -1,0 +1,63 @@
+:root{
+    --main-bg-color: #DADDD8;
+    --main-header-color: #392F5A;
+    --main-header-text-color: #FFF8F0;
+    --main-visited-link-color: #FF8811;
+}
+
+body{
+    background-color: var(--main-bg-color);
+    margin: 0;
+}
+header{
+    background-color: var(--main-header-color);
+    color: var(--main-header-text-color);
+    font-family: 'Graduate', cursive;
+    
+}
+
+h1, h2{
+    padding: 8px;
+    margin: 8px;
+    font-family: 'Graduate', cursive;
+}
+
+header ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header li{
+    display: inline;
+    padding: 8px;
+    margin: 8px;
+}
+
+header a{
+    text-decoration: none;
+    color: var(--main-header-text-color);
+}
+
+a:visited{
+    color: var(--main-visited-link-color);
+}
+
+main{
+    display: flex;
+    overflow: hidden;
+}
+
+p{
+    width: 90%;
+    padding: 20px;
+    margin 10px;
+}
+
+article{
+    
+}
+
+aside{
+   margin: 10px;
+}

@@ -10,6 +10,7 @@ body{
     margin: 0px;
     font-family: 'Open Sans', sans-serif;
 }
+
 header{
     background-color: var(--main-header-color);
     color: var(--main-header-text-color);
@@ -18,7 +19,7 @@ header{
 
 h1, h2, h3, h4{
     padding: 10px;
-    margin: 10px;
+    margin: 0px;
     font-family: 'Graduate', cursive;
 }
 

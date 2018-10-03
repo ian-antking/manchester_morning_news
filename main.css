@@ -3,18 +3,20 @@
     --main-header-color: #392F5A;
     --main-header-text-color: #FFF8F0;
     --main-visited-link-color: #FF8811;
+    --header-font: 'Open Sans', sans-serif;
+    --main-font: 'Graduate', cursive;
 }
 
 body{
     background-color: var(--main-bg-color);
     margin: 0px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: var(--header-font);
 }
 
 header{
     background-color: var(--main-header-color);
     color: var(--main-header-text-color);
-    font-family: 'Graduate', cursive;
+    font-family: var(--main-font);
 }
 
 h1, h2, h3, h4{

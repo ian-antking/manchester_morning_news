@@ -14,20 +14,17 @@ header{
     background-color: var(--main-header-color);
     color: var(--main-header-text-color);
     font-family: 'Graduate', cursive;
-    margin: 0;
-    position: top;
-    
 }
 
 h1, h2, h3, h4{
-    padding: 8px;
-    margin: 8px;
+    padding: 10px;
+    margin: 10px;
     font-family: 'Graduate', cursive;
 }
 
 header ul{
     list-style-type: none;
-    margin-bottom: 10ox;
+    padding-bottom: 10px;
 }
 
 header li{
@@ -47,17 +44,17 @@ a:visited{
 main{
     display: flex;
     overflow: hidden;
-}
-
-p{
-    width: 90%;
-    margin: 20px;
+    justify-content: space-evenly;
 }
 
 article{
-    
+    width: 60%;
 }
 
 aside{
-   margin: 10px;
+    width: 30%;
+}
+
+footer{
+    margin: 20px;
 }
